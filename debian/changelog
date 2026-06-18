@@ -1,0 +1,8 @@
+moxterminal (1.0.0) unstable; urgency=medium
+
+  * Initial release: the PANMOX terminal for PMX OS.
+  * GTK 3 + VTE terminal with true transparency and KDE blur-behind.
+  * Two PANMOX themes: deep-cyan (default) and retro phosphor-green.
+  * Tabs, font zoom, URL detection, and a hand-editable INI config.
+
+ -- PANMOX <hello@panmox.org>  Wed, 17 Jun 2026 12:00:00 +0000

@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+# MoxTerminal Debian rules. Build is a no-op (pure Python + data files);
+# installation is delegated to the project Makefile.
+
+%:
+	dh $@
+
+override_dh_auto_build:
+
+override_dh_auto_test:
+
+override_dh_auto_clean:
+
+override_dh_auto_install:
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/moxterminal PREFIX=/usr

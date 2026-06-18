@@ -1,0 +1,3 @@
+moxterminal/*.py                usr/share/moxterminal/moxterminal/
+data/org.panmox.MoxTerminal.desktop   usr/share/applications/
+data/icons/org.panmox.MoxTerminal.svg usr/share/icons/hicolor/scalable/apps/

@@ -1,0 +1,28 @@
+Source: moxterminal
+Section: utils
+Priority: optional
+Maintainer: PANMOX <hello@panmox.org>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2
+Homepage: https://panmox.org/pmxos
+Rules-Requires-Root: no
+
+Package: moxterminal
+Architecture: all
+Depends: ${misc:Depends},
+         python3 (>= 3.8),
+         python3-gi,
+         gir1.2-gtk-3.0,
+         gir1.2-vte-2.91
+Recommends: fonts-jetbrains-mono
+Description: PANMOX terminal for PMX OS — transparent, blue, blurry
+ MoxTerminal is a terminal emulator built on GTK 3 and VTE, designed for
+ PMX OS and Debian. It is translucent and blurry by default and ships the
+ two PANMOX looks: deep-cyan (the modern default) and retro phosphor-green.
+ .
+ Features:
+  * True transparency with KDE blur-behind (KWin / X11)
+  * Tabs, font zoom, URL detection, hand-editable INI config
+  * 256-color + true-color, configurable shell, scrollback and cursor
+ .
+ No cloud. No telemetry. No boss.
