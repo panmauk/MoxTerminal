@@ -1,0 +1,5 @@
+#!/bin/sh
+# Pre-remove: delete the launcher written by postinst.
+set -e
+rm -f /usr/bin/moxterminal
+exit 0

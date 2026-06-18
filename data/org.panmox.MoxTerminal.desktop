@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MoxTerminal
+GenericName=Terminal
+Comment=The PANMOX terminal for PMX OS — transparent, blue, blurry
+Keywords=terminal;shell;prompt;command;console;panmox;pmx;
+Exec=moxterminal
+Icon=org.panmox.MoxTerminal
+Terminal=false
+Categories=System;TerminalEmulator;Utility;
+StartupNotify=true
+StartupWMClass=org.panmox.MoxTerminal
+X-GNOME-UsesNotifications=false
+Actions=new-window;phosphor;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=moxterminal
+
+[Desktop Action phosphor]
+Name=Open in Phosphor mode
+Exec=moxterminal --theme phosphor

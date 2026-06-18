@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moxterminal"
+version = "1.0.0"
+description = "The PANMOX terminal for PMX OS — transparent, blue, blurry"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "PANMOX" }]
+keywords = ["terminal", "vte", "gtk", "panmox", "pmxos", "debian"]
+# PyGObject + VTE are provided by system packages (see README), not pip.
+dependencies = []
+
+[project.urls]
+Homepage = "https://panmox.org/pmxos"
+
+[project.scripts]
+moxterminal = "moxterminal.__main__:main"
+
+[tool.setuptools]
+packages = ["moxterminal"]
